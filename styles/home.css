@@ -11,10 +11,11 @@ a {
 body {
   display: flex;
   flex-direction: column;
-  font-family: "Cinzel Decorative", serif;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(to bottom, #010000, #821301);
+  background-image: linear-gradient(to bottom, #010000 50%, #821301);
   color: white;
 }
 
@@ -26,23 +27,24 @@ main {
 }
 
 h1 {
+  font-family: "Cinzel Decorative", serif;
   font-weight: 700;
   font-size: 100px;
   text-align: center;
-  padding: 30px;
+  padding: 30px 30px 0 30px;
 }
 
-h1.hover {
+h1:hover {
   cursor: pointer;
 }
 
 main > p {
   text-align: center;
-  padding: 10px;
+  padding: 0 10px 10px 10px;
 }
 
 header {
-  background-color: #821301;
+  background-color: #010000;
   height: 50px;
 }
 
@@ -55,12 +57,20 @@ nav {
 
 .buttons a {
   display: block;
-  padding: 30px;
+  padding: 20px 30px;
   font-size: 17px;
-  background-color: #010000;
-  margin-bottom: 30px;
-  margin-right: 10px;
+  background-color: transparent;
+  border: solid 3px white;
   border-radius: 10px;
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  margin: 40px 0;
+  transition: 0.3s ease-out;
+}
+
+.buttons a:hover {
+  background-color: white;
+  color: #010000;
 }
 
 .buttons {
@@ -70,28 +80,8 @@ nav {
   justify-content: center;
 }
 
-.play {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.play > a {
-  font-size: 40px;
-  padding: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.others {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
 footer {
-  background-color: black;
+  background-color: #821301;
   display: flex;
   flex-direction: column;
   height: 50px;
