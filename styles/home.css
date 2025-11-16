@@ -60,6 +60,7 @@ nav {
   background-color: #010000;
   margin-bottom: 30px;
   margin-right: 10px;
+  border-radius: 10px;
 }
 
 .buttons {
@@ -80,7 +81,6 @@ nav {
   padding: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 10px;
 }
 
 .others {
