@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to bottom, #010000 50%, #821301);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+h1 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-align: center;
+  padding: 30px 30px 0 30px;
+}
+
+h1:hover {
+  cursor: pointer;
+}
+
+h2 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-size: 70px;
+  text-align: center;
+  padding: 30px 30px 0 30px;
+}
+
+h3 {
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px 30px 0 30px;
+}
+
+p {
+  text-align: center;
+  padding: 10px;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  padding: 10px;
+}
+
+main > p {
+  text-align: center;
+  padding: 0 10px 10px 10px;
+}
+
+header {
+  background-color: #010000;
+  height: 50px;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex: 1;
+}
+
+.buttons a {
+  display: block;
+  padding: 20px 30px;
+  font-size: 17px;
+  background-color: transparent;
+  border: solid 3px white;
+  border-radius: 10px;
+  font-family: "Cinzel", serif;
+  font-size: 30px;
+  margin: 40px 0;
+  transition: 0.3s ease-out;
+}
+
+.buttons a:hover {
+  background-color: white;
+  color: #010000;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #821301;
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  min-height: 50px;
+  margin-top: 50px;
+}
+
+.contact > p {
+  font-weight: 700;
+}
+
+.contact {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+span {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+}
