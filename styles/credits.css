@@ -53,7 +53,7 @@ h3 {
   font-weight: 700;
   font-size: 17px;
   text-align: center;
-  padding: 50px 50px 0 50px;
+  padding: 30px;
 }
 
 p {
@@ -71,8 +71,8 @@ ul {
 }
 
 li {
-  padding: 20px;
   font-size: 30px;
+  padding: 7px;
 }
 
 main > p {
@@ -81,7 +81,7 @@ main > p {
 }
 
 header {
-  background-color: #010000;
+  background-color: transparent;
   min-height: 100px;
   display: flex;
   justify-content: space-between;
@@ -96,6 +96,7 @@ header {
   font-family: "Cinzel Decorative", serif;
   font-size: 30px;
   padding: 30px;
+  font-weight: 700;
 }
 
 nav {
@@ -139,7 +140,7 @@ nav > a:hover {
 }
 
 footer {
-  background-color: #821301;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   height: 50px;

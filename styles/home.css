@@ -45,7 +45,7 @@ main > p {
 }
 
 header {
-  background-color: #010000;
+  background-color: transparent;
   min-height: 100px;
   display: flex;
   justify-content: space-between;
@@ -61,6 +61,7 @@ header {
   padding: 30px;
   font-size: 30px;
   font-family: "Cinzel Decorative", serif;
+  font-weight: 700;
 }
 
 nav {
@@ -106,7 +107,7 @@ nav > a:hover {
 }
 
 footer {
-  background-color: #821301;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   height: 50px;

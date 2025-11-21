@@ -80,7 +80,7 @@ main > p {
 }
 
 header {
-  background-color: #010000;
+  background-color: transparent;
   min-height: 100px;
   display: flex;
   justify-content: space-between;
@@ -95,6 +95,7 @@ header {
   font-family: "Cinzel Decorative", serif;
   padding: 30px;
   font-size: 30px;
+  font-weight: 700;
 }
 
 nav > a {
@@ -140,7 +141,7 @@ nav {
 }
 
 footer {
-  background-color: #821301;
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   height: 50px;
@@ -211,6 +212,7 @@ span {
 
 /* Number text (1/3 etc) */
 .numbertext {
+  display: none;
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -220,6 +222,7 @@ span {
 
 /* Container for image text */
 .caption-container {
+  display: none;
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
