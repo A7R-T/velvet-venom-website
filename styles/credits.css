@@ -51,7 +51,7 @@ h2 {
 h3 {
   font-family: "Cinzel Decorative", serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 17px;
   text-align: center;
   padding: 50px 50px 0 50px;
 }
@@ -72,6 +72,7 @@ ul {
 
 li {
   padding: 20px;
+  font-size: 30px;
 }
 
 main > p {
@@ -81,23 +82,41 @@ main > p {
 
 header {
   background-color: #010000;
-  height: 50px;
-  min-height: 50px;
+  min-height: 100px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon > p {
+  font-family: "Cinzel Decorative", serif;
+  font-size: 30px;
+  padding: 30px;
 }
 
 nav {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  flex: 1;
+}
+
+nav > a {
+  padding: 0 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+}
+nav > a:hover {
+  background-color: white;
+  color: black;
 }
 
 .buttons a {
   display: block;
   padding: 20px 30px;
-  font-size: 17px;
   background-color: transparent;
   border: solid 3px white;
   border-radius: 10px;
@@ -140,7 +159,24 @@ footer {
 }
 
 span {
+  font-size: 17px;
   display: block;
   font-weight: bold;
   font-style: italic;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+footer a {
+  border-radius: 10px;
+  padding: 0 30px;
+  transition: 0.3s ease-out;
+}
+footer a:hover {
+  background-color: white;
+  color: #821301;
 }

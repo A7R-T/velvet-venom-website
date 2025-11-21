@@ -41,24 +41,49 @@ h1:hover {
 main > p {
   text-align: center;
   padding: 0 10px 10px 10px;
+  font-size: 20px;
 }
 
 header {
   background-color: #010000;
-  height: 50px;
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icon > p {
+  padding: 30px;
+  font-size: 30px;
+  font-family: "Cinzel Decorative", serif;
 }
 
 nav {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   height: 100%;
+}
+
+nav > a {
+  padding: 0 30px;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+  margin-right: 20px;
+}
+
+nav > a:hover {
+  background-color: white;
+  color: black;
 }
 
 .buttons a {
   display: block;
   padding: 20px 30px;
-  font-size: 17px;
   background-color: transparent;
   border: solid 3px white;
   border-radius: 10px;
@@ -92,4 +117,14 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+footer a {
+  border-radius: 10px;
+  padding: 0 30px;
+  transition: 0.3s ease-out;
+}
+footer a:hover {
+  background-color: white;
+  color: #821301;
 }
