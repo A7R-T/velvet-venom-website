@@ -165,7 +165,6 @@ span {
   display: block;
   font-size: 17px;
   font-weight: bold;
-  font-style: italic;
 }
 
 footer a {
@@ -180,4 +179,8 @@ footer a:hover {
 .active {
   background-color: white;
   color: black;
+}
+
+.controls, .objective, .tips {
+  padding: 50px;
 }

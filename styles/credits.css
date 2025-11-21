@@ -163,7 +163,6 @@ span {
   font-size: 17px;
   display: block;
   font-weight: bold;
-  font-style: italic;
 }
 
 .active {
@@ -180,4 +179,8 @@ footer a {
 footer a:hover {
   background-color: white;
   color: #821301;
+}
+
+.development-team, .additional-help, .assets-retribution {
+  padding: 50px;
 }
