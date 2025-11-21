@@ -33,7 +33,7 @@ h1 {
   font-weight: 700;
   font-size: 100px;
   text-align: center;
-  padding: 30px 30px 0 30px;
+  padding: 50px 50px 0 50px;
 }
 
 h1:hover {
@@ -45,7 +45,7 @@ h2 {
   font-weight: 700;
   font-size: 70px;
   text-align: center;
-  padding: 30px 30px 0 30px;
+  padding: 50px 50px 0 50px;
 }
 
 h3 {
@@ -53,12 +53,12 @@ h3 {
   font-weight: 700;
   font-size: 30px;
   text-align: center;
-  padding: 30px 30px 0 30px;
+  padding: 50px 50px 0 50px;
 }
 
 p {
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 
 ul {
@@ -71,7 +71,7 @@ ul {
 }
 
 li {
-  padding: 10px;
+  padding: 20px;
 }
 
 main > p {
